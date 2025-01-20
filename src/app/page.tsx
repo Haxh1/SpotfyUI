@@ -6,7 +6,6 @@ import {
   ChevronLeft,
   ChevronRight,
   PlayIcon,
-  Shuffle,
   SkipBack,
   SkipForward,
   Repeat,
@@ -15,8 +14,9 @@ import {
   Laptop2,
   Volume1,
   Maximize2,
+  DicesIcon,
 } from "lucide-react";
-import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="h-screen flex flex-col">
@@ -273,7 +273,7 @@ export default function Home() {
         </div>
         <div className="flex flex-col items-center gap-2">
           <div className="flex items-center gap-6">
-            <Shuffle size={20} className=" text-zinc-200" />
+            <DicesIcon size={20} className=" text-zinc-200" />
             <SkipBack size={20} className=" text-zinc-200" />
             <button className="w-10 h-10 flex items-center justify-center pl-0,5 rounded-full bg-white text-black ">
               <PlayIcon />
